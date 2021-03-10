@@ -38,14 +38,4 @@ public class ExchangePortalDto {
         this.ratio = ratio;
         this.time = time;
     }
-
-    @Override
-    public String toString() {
-        return "ExchangePortal: " +
-                "id=" + id +
-                ", provider='" + provider + '\'' +
-                ", currencyToBuy=" + currencyToBuy +
-                ", currencyToPay=" + currencyToPay +
-                ", ratio=" + ratio;
-    }
 }

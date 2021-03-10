@@ -22,14 +22,4 @@ public class WalletItemDto {
         this.currency = currency;
         this.quantity = quantity;
     }
-
-    @Override
-    public String toString() {
-        return "WalletItemDto{" +
-                "id=" + id +
-                ", walletId=" + walletId +
-                ", currency=" + currency +
-                ", quantity=" + quantity +
-                '}';
-    }
 }
