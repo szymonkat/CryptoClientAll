@@ -1,6 +1,5 @@
 package com.cryptoclient.mapper;
 
-import com.cryptoclient.domain.Currency;
 import com.cryptoclient.domain.ExchangePortal;
 import com.cryptoclient.dto.ExchangePortalDto;
 import com.cryptoclient.service.interfaces.ItemToBuyService;

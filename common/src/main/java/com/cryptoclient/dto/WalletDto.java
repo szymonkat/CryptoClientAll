@@ -24,4 +24,11 @@ public class WalletDto {
         this.name = name;
         this.walletItemList = walletItemList;
     }
+
+    @Override
+    public String toString() {
+        return "Wallet: " +
+                "id=" + id +
+                ", name='" + name + "'";
+    }
 }
